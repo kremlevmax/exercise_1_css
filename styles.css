@@ -74,7 +74,7 @@ img {
 }
 
 body {
-  background-image: url("files//img/background.png");
+  background-image: url("files/img/background.png");
 }
 ._container {
   min-width: 1680px;
