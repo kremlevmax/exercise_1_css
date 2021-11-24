@@ -115,7 +115,7 @@ body {
 .info__data {
   display: flex;
   flex-direction: column;
-  min-width: 205px;
+  width: 205px;
 }
 
 .info__data__icon {
@@ -126,8 +126,14 @@ body {
   opacity: 0.5;
 }
 
-.first-column__tech {
+.info__data__value {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 .tech {
   display: flex;
   flex-direction: column;
