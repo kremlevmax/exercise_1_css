@@ -143,8 +143,7 @@ body {
   font-size: 30px;
   font-weight: 600;
 }
-.tech__item {
-}
+
 .tech__item__label {
   font-size: 15px;
   line-height: 25px;
@@ -181,9 +180,6 @@ body {
   gap: 60px;
 }
 
-.second-column__article {
-}
-
 .article {
   display: flex;
   flex-direction: column;
@@ -199,8 +195,6 @@ body {
   opacity: 0.8;
 }
 
-.third-column {
-}
 .third-column__img-container {
   max-width: 460px;
   height: 750px;
