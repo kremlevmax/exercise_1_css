@@ -69,11 +69,6 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-ul,
-li {
-  list-style: none;
-}
-
 img {
   vertical-align: top;
 }
@@ -88,7 +83,9 @@ body {
 
 .main {
   display: flex;
+  gap: 50px;
 }
+
 .first-column {
   max-width: 450px;
 }
@@ -166,6 +163,51 @@ body {
 #media {
   width: 20%;
 }
+
 #shopping {
   width: 50%;
+}
+
+.second-column {
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.second-column__article {
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.article__title {
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.article__text {
+  opacity: 0.8;
+}
+
+.third-column {
+}
+.third-column__img-container {
+  max-width: 460px;
+  height: 750px;
+  background-image: url("/files/img/woman.jpeg");
+  background-position: 75%;
+  background-size: 290%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 100px 50px;
+}
+.third-column_text-container {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
 }
