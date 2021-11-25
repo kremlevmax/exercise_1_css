@@ -75,22 +75,26 @@ img {
 body {
   background-image: url("files/img/background.png");
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 }
 ._container {
-  min-width: 1680px;
-  padding: 90px 100px;
+  max-width: 1680px;
 }
 
 .main {
   display: flex;
   gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .first-column {
   max-width: 450px;
-  max-height: 635px;
+  height: 635px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
