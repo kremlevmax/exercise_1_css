@@ -78,7 +78,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 50px;
 }
 ._container {
   max-width: 1680px;
@@ -90,6 +89,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 50px;
 }
 
 .first-column {
