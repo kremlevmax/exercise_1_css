@@ -88,7 +88,6 @@ body {
   gap: 50px;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   padding: 50px;
 }
 
@@ -98,15 +97,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .first-column__header {
   font-weight: 600;
   font-size: 75px;
   line-height: 75px;
-}
-
-.first-column__info {
 }
 
 .info {
@@ -118,7 +115,7 @@ body {
 .info__row {
   display: flex;
   justify-content: space-between;
-  gap: 70px;
+  gap: 2vw;
 }
 
 .info__data {
@@ -129,6 +126,10 @@ body {
 
 .info__data__icon {
   margin-bottom: 7px;
+}
+
+.info__svg-icon {
+  width: 30px;
 }
 
 .info__data__title {
@@ -147,6 +148,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 100%;
 }
 .tech__title {
   font-size: 30px;
@@ -170,36 +172,19 @@ body {
   border-radius: 25px;
 }
 
-#internet {
-  width: 50%;
-}
-
-#media {
-  width: 20%;
-}
-
-#shopping {
-  width: 50%;
-}
-
 .second-column {
   max-width: 460px;
-  max-height: 635px;
+  height: 635px;
   display: flex;
   flex-direction: column;
   gap: 60px;
   justify-content: space-between;
 }
 
-.article {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
 .article__title {
   font-size: 30px;
   opacity: 0.9;
+  margin-bottom: 15px;
 }
 
 .article__text {
@@ -221,8 +206,86 @@ body {
   justify-content: flex-end;
   padding: 100px 50px;
 }
+
 .third-column_text-container {
   font-weight: 600;
   font-size: 30px;
   line-height: 35px;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    gap: 6vh;
+    padding: 8vh 4vw;
+  }
+
+  .first-column {
+    min-width: 90%;
+    gap: 5vh;
+    height: auto;
+  }
+
+  .first-column__header {
+    font-weight: 600;
+    font-size: 14vw;
+    line-height: 14vw;
+    width: 5vw;
+  }
+
+  .info {
+    gap: 6vh;
+  }
+
+  .info__svg-icon {
+    width: 6vw;
+  }
+
+  .info__data {
+    font-size: 2vh;
+    line-height: 3vh;
+    width: 800px;
+  }
+
+  .tech__title {
+    font-size: 5vh;
+    line-height: 6vh;
+    font-weight: 600;
+  }
+  .tech {
+    gap: 2vh;
+  }
+
+  .tech__item__label {
+    font-size: 2vh;
+    line-height: 4vh;
+    opacity: 0.8;
+  }
+
+  .second-column {
+    gap: 6vh;
+    min-width: 90%;
+    height: auto;
+  }
+
+  .article__title {
+    font-size: 5vh;
+    opacity: 0.9;
+    margin-bottom: 3vh;
+  }
+
+  .article__text {
+    font-size: 2vh;
+    line-height: 3vh;
+  }
+  .third-column__img-container {
+    max-width: 82vw;
+    height: 80vh;
+  }
+
+  .third-column_text-container {
+    background-color: rgba(0, 0, 0, 0.201);
+    font-size: 3.5vh;
+    line-height: 4vh;
+    padding: 2vh;
+  }
 }
