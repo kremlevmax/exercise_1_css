@@ -215,7 +215,7 @@ body {
 
 @media screen and (max-width: 1024px) {
   .main {
-    gap: 6vh;
+    gap: 7vh;
     padding: 8vh 4vw;
   }
 
@@ -241,8 +241,8 @@ body {
   }
 
   .info__data {
-    font-size: 2vh;
-    line-height: 3vh;
+    font-size: 3vh;
+    line-height: 4vh;
     width: 800px;
   }
 
@@ -251,18 +251,19 @@ body {
     line-height: 6vh;
     font-weight: 600;
   }
+
   .tech {
-    gap: 2vh;
+    gap: 3vh;
   }
 
   .tech__item__label {
-    font-size: 2vh;
-    line-height: 4vh;
+    font-size: 3vh;
+    line-height: 5vh;
     opacity: 0.8;
   }
 
   .second-column {
-    gap: 6vh;
+    gap: 7vh;
     min-width: 90%;
     height: auto;
   }
@@ -270,22 +271,23 @@ body {
   .article__title {
     font-size: 5vh;
     opacity: 0.9;
-    margin-bottom: 3vh;
+    margin-bottom: 4vh;
   }
 
   .article__text {
-    font-size: 2vh;
-    line-height: 3vh;
+    font-size: 3vh;
+    line-height: 5vh;
   }
   .third-column__img-container {
     max-width: 82vw;
     height: 80vh;
+    min-height: 750px;
   }
 
   .third-column_text-container {
     background-color: rgba(0, 0, 0, 0.201);
-    font-size: 3.5vh;
+    font-size: 4vh;
     line-height: 4vh;
-    padding: 2vh;
+    padding: 20px;
   }
 }
