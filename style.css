@@ -93,17 +93,14 @@ body {
 
 .first-column {
   max-width: 450px;
-  height: 635px;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 20px;
 }
 
 .first-column__header {
   font-weight: 600;
   font-size: 75px;
   line-height: 75px;
+  margin-bottom: 65px;
 }
 
 .info {
@@ -145,12 +142,10 @@ body {
 }
 
 .tech {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
   width: 100%;
 }
 .tech__title {
+  margin-top: 55px;
   font-size: 30px;
   font-weight: 600;
 }
@@ -174,11 +169,6 @@ body {
 
 .second-column {
   max-width: 460px;
-  height: 635px;
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  justify-content: space-between;
 }
 
 .article__title {
@@ -189,6 +179,7 @@ body {
 
 .article__text {
   opacity: 0.8;
+  margin-bottom: 50px;
 }
 
 .article_list {
@@ -215,7 +206,6 @@ body {
 
 @media screen and (max-width: 1024px) {
   .main {
-    gap: 7vh;
     padding: 8vh 4vw;
   }
 
@@ -263,7 +253,6 @@ body {
   }
 
   .second-column {
-    gap: 7vh;
     min-width: 90%;
     height: auto;
   }
@@ -271,14 +260,20 @@ body {
   .article__title {
     font-size: 5vh;
     opacity: 0.9;
-    margin-bottom: 4vh;
+    margin: 8vh 0 4vh;
   }
 
   .article__text {
     font-size: 3vh;
     line-height: 5vh;
   }
+
+  .article_list {
+    padding-left: 6vw;
+  }
+
   .third-column__img-container {
+    margin-top: 8vh;
     max-width: 82vw;
     height: 80vh;
     min-height: 750px;
